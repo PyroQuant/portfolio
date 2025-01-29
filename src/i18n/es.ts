@@ -30,7 +30,12 @@ export const es = {
     categories: {
       programming: 'Programación y Análisis de Datos',
       webdev: 'Desarrollo Web',
-      dataAnalysis: 'Herramientas de Análisis de Datos'
+      dataAnalysis: 'Herramientas de Análisis de Datos',
+      subtitles: {
+        dataAnalysis: 'Python y Power BI',
+        webdev: 'React y TypeScript',
+        programming: 'SQL y Market Data'
+      }
     }
   },
   about: {

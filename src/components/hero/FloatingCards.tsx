@@ -8,7 +8,7 @@ export const FloatingCards = () => {
     {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       title: t('skills.categories.dataAnalysis'),
-      subtitle: "Python & Power BI",
+      subtitle: t('skills.categories.subtitles.dataAnalysis'),
       animation: { y: [-10, 10], rotate: [-2, 2] },
       duration: 3,
       className: "top-[5%] right-[5%] sm:top-0 sm:right-[10%]"
@@ -16,7 +16,7 @@ export const FloatingCards = () => {
     {
       image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       title: t('skills.categories.webdev'),
-      subtitle: "React & TypeScript",
+      subtitle: t('skills.categories.subtitles.webdev'),
       animation: { y: [10, -10], rotate: [2, -2] },
       duration: 3.5,
       className: "top-[35%] left-[5%] sm:top-[20%] sm:left-[5%]"
@@ -24,7 +24,7 @@ export const FloatingCards = () => {
     {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       title: t('skills.categories.programming'),
-      subtitle: "SQL & Market Data",
+      subtitle: t('skills.categories.subtitles.programming'),
       animation: { y: [-5, 5], rotate: [-1, 1] },
       duration: 4,
       className: "top-[65%] right-[15%] sm:bottom-0 sm:right-[15%]"
