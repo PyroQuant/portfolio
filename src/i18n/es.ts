@@ -80,7 +80,8 @@ export const es = {
       sending: 'Enviando...',
       success: '¡Mensaje enviado con éxito!',
       error: 'Error al enviar el mensaje. Por favor, inténtalo de nuevo.'
-    }
+    },
+    location: 'Ubicación'
   },
   footer: {
     tagline: 'Transformando desafíos empresariales complejos en soluciones digitales elegantes a través del desarrollo basado en datos.',

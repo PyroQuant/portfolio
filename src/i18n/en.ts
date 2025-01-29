@@ -80,7 +80,8 @@ export const en = {
       sending: 'Sending...',
       success: 'Message sent successfully!',
       error: 'Failed to send message. Please try again.'
-    }
+    },
+    location: 'Location'
   },
   footer: {
     tagline: 'Transforming complex business challenges into elegant digital solutions through data-driven development.',

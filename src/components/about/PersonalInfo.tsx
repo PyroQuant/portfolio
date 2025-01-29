@@ -16,11 +16,10 @@ export const PersonalInfo = () => {
           className="flex-shrink-0"
         >
           <div className="relative w-48 h-48">
-            <div className="absolute inset-0 bg-primary/20 rounded-full animate-pulse-slow" />
             <img
               src="https://i.ibb.co/XXncgq4/ALE1223-Editar.jpg"
               alt="Sebastián García"
-              className="w-full h-full object-cover object-top rounded-full border-4 border-primary/30"
+              className="w-full h-full object-cover object-top rounded-full border-4 border-primary/20"
             />
           </div>
         </motion.div>
