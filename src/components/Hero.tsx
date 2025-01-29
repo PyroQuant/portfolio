@@ -75,14 +75,17 @@ export const Hero = () => {
                   {t('hero.cta.projects')}
                   <ArrowRight className="w-5 h-5" />
                 </motion.button>
-                <motion.button
+                <motion.a
+                  href="https://drive.google.com/file/d/1ROFbwb6vkXj_hWwycYyMmA6Ehcj7U-9S/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05, backgroundColor: 'rgba(23, 23, 23, 0.9)' }}
                   whileTap={{ scale: 0.95 }}
                   className="px-6 py-3 bg-dark-lighter backdrop-blur-sm text-white rounded-lg font-medium flex items-center justify-center gap-2 border border-primary/20"
                 >
                   {t('hero.cta.resume')}
                   <Download className="w-5 h-5" />
-                </motion.button>
+                </motion.a>
               </div>
             </motion.div>
 

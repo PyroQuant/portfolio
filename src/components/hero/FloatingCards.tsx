@@ -32,7 +32,7 @@ export const FloatingCards = () => {
   ];
 
   return (
-    <div className="relative w-full aspect-square max-w-[400px] mx-auto scale-[0.45] sm:scale-[0.65] md:scale-85 lg:scale-100">
+    <div className="relative w-full aspect-square max-w-[400px] mx-auto scale-[0.65] sm:scale-[0.75] md:scale-85 lg:scale-100">
       {cards.map((card, index) => (
         <motion.div
           key={index}
